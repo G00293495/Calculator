@@ -8,8 +8,8 @@ public class CalculatorTest {
     Calculator myCalc;
 
     @Test
-    public void testSubtract(){
+    public void testMultiply(){
         myCalc = new Calculator();
-        assertEquals(25, myCalc.subtract(50,25));
+        assertEquals(30, myCalc.multiply(6,5));
     }
 }
